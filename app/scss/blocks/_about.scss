@@ -1,0 +1,73 @@
+.about {
+  margin: 150px 0;
+
+  &__inner {
+    display: flex;
+
+    figure {
+      display: flex;
+
+      .about-bg {
+        display: flex;
+        justify-content: center;
+
+        min-width: 840px;
+        min-height: 720px;
+        background: url(../img/about-bg.png) no-repeat center/cover;
+        background-color: #290a59;
+
+        position: relative;
+
+        &::before {
+          content: url(../img/about-logo.svg);
+          opacity: .3;
+
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+        }
+      }
+
+      figcaption {
+        min-width: 555px;
+        background-color: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    &-info {
+      max-width: 298px;
+      min-height: 400px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  &__title--lg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    z-index: 3;
+  }
+
+  &__title--sm {
+    margin-bottom: 5px;
+  }
+
+  &__btn {
+    margin-left: 180px;
+
+    align-self: center;
+    transform: rotate(-90deg);
+  }
+}
