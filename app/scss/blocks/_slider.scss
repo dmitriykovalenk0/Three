@@ -1,0 +1,44 @@
+.slider {
+
+  &__item {
+    position: relative;
+
+    figure {
+      float: right;
+      display: flex;
+
+      figcaption {
+        padding: 105px 120px;
+        max-width: 555px;
+        background-color: #fff;
+
+        .figcaption__inner {
+          max-width: 310px;
+          min-height: 515px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+}
+
+.slick-arrow {
+  padding: 21px 18px;
+  border: 2px solid #00e558;
+  cursor: pointer;
+
+  position: absolute;
+  z-index: 3;
+  left: 215px;
+}
+
+.nextArrow {
+  top: 292px;
+}
+
+.prevArrow {
+  bottom: 292px;
+}

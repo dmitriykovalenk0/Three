@@ -13,6 +13,7 @@ body {
     sans-serif;
   font-weight: 400;
   font-size: 16px;
+  background-color: #e9ecef;
 }
 
 a {
@@ -40,3 +41,48 @@ li {
 figure {
   margin: 0;
 }
+
+.title--md {
+  color: #290a59;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title--sm {
+  color: #00e558;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 5.2px;
+  text-transform: uppercase;
+}
+
+.text--default {
+  color: #6d6081;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.btn--default {
+  padding: 22px 24px;
+
+  color: #290a59;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5.2px;
+  border: 2px solid #00e558;
+}
+
+.slick-arrow {
+  padding: 21px 18px;
+  border: 2px solid #00e558;
+  cursor: pointer;
+
+  position: absolute;
+}
+
+.nextArrow {}
+
+.prevArrow {}
