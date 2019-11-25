@@ -42,6 +42,21 @@ figure {
   margin: 0;
 }
 
+.title--lg {
+  color: #290a59;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 16px;
+
+  span {
+    display: block;
+    font-family: "Playfair Display",
+      sans-serif;
+    font-size: 80px;
+    letter-spacing: 0;
+  }
+}
+
 .title--md {
   color: #290a59;
   font-family: "Playfair Display", sans-serif;
@@ -75,14 +90,13 @@ figure {
   border: 2px solid #00e558;
 }
 
-.slick-arrow {
-  padding: 21px 18px;
-  border: 2px solid #00e558;
-  cursor: pointer;
+.block-info {
+  padding-left: 48px;
+  margin: 0 auto;
 
-  position: absolute;
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+
+  border-left: 2px solid #00e658;
 }
-
-.nextArrow {}
-
-.prevArrow {}
