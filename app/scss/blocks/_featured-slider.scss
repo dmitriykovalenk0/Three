@@ -1,15 +1,17 @@
 .slider {
+  display: flex;
+  justify-content: flex-end;
 
   &__item {
-    position: relative;
+    overflow: hidden;
 
     figure {
-      float: right;
       display: flex;
 
       figcaption {
+        flex-grow: 1;
+        flex-basis: 555px;
         padding: 105px 120px;
-        max-width: 555px;
         background-color: #fff;
 
         .figcaption__inner {
@@ -21,25 +23,38 @@
           align-items: flex-start;
         }
       }
+
+      img {
+        height: auto;
+        width: 100%;
+      }
     }
   }
 }
 
+.slick-list {
+  max-width: 1395px;
+  width: 100%;
+  order: 1;
+}
+
 .slick-arrow {
+
+  &:nth-child(3) {
+    margin: 0 170px 0 30px;
+  }
+
   padding: 21px 18px;
   border: 2px solid #00e558;
   cursor: pointer;
 
-  position: absolute;
   z-index: 3;
 }
 
 .feature__slider-nextArrow {
-  left: 215px;
-  top: 292px;
+  align-self: center;
 }
 
 .feature__slider-prevArrow {
-  left: 215px;
-  bottom: 292px;
+  align-self: center;
 }

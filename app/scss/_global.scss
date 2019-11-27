@@ -95,14 +95,16 @@ figure {
 }
 
 .block-info {
-  padding-left: 48px;
   margin: 0 auto;
 
   max-width: 1110px;
   display: flex;
   justify-content: space-between;
 
-  border-left: 2px solid #00e658;
+  &-title {
+    padding-left: 48px;
+    border-left: 2px solid #00e658;
+  }
 }
 
 .link--default {
